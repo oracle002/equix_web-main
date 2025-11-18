@@ -33,7 +33,7 @@ export default function TechnologyStack({ tech, outcomes }: TechnologyStackProps
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
+        
       },
     },
   };
@@ -45,7 +45,7 @@ export default function TechnologyStack({ tech, outcomes }: TechnologyStackProps
       x: 0,
       transition: {
         duration: 0.4,
-        ease: "easeOut",
+       
       },
     },
   };
