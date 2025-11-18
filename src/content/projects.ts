@@ -4,7 +4,7 @@ import bottomRightImage1 from "@/assets/images/projects/1/image3.png";
 
 import topImage2 from "@/assets/images/projects/2/image1.png";
 import bottomLeftImage2 from "@/assets/images/projects/2/image2.png";
-import bottomRightImage2 from "@/assets/images/projects/2/";
+import bottomRightImage2 from "@/assets/images/projects/2/image3.png";
 
 // Add imports for Project 3-6 images
 import topImage3 from "@/assets/images/projects/3/image1.png";
