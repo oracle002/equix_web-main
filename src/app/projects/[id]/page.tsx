@@ -10,7 +10,8 @@ import { products } from "@/content/projects";
 
 export default function ProjectPage() {
   const params = useParams();
-  const id = parseInt(params.id || "0");
+  const idParam = Array.isArray(params.id) ? params.id[0] : params.id ?? "0";
+  const id = parseInt(idParam, 10);
   const product = products.find((p) => p.id === id);
 
   if (!product) return <div className="p-10">Project not found</div>;
