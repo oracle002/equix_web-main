@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 interface ImagesProps {
   images: {
-    top: StaticImageData;
-    bottomLeft: StaticImageData;
-    bottomRight: StaticImageData;
+    top: string | StaticImageData;
+    bottomLeft: string | StaticImageData;
+    bottomRight: string | StaticImageData;
   };
 }
 
