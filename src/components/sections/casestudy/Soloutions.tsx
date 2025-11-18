@@ -17,7 +17,7 @@ export default function SolutionOverview() {
 
   if (!study || !study.solutionOverview) return null;
 
-  const { title, description, functionalities = [] } = study.solutionOverview;
+  const { title, description, functionalities = [] }: { title?: string; description?: string; functionalities?: Functionality[] } = study.solutionOverview;
 
   const containerVariants = {
     hidden: { opacity: 0 },

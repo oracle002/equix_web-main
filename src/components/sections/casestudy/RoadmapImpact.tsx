@@ -9,15 +9,15 @@ export default function RoadmapImpact() {
   const { id } = useParams();
   const study = caseStudies.find((c) => c.id === id);
 
-  if (!study || (!study.roadmapItems && !study.impactCategories)) return null;
+  if (!study || (!study.impactCategories)) return null;
 
-  const roadmapItems = study.roadmapItems || [];
+  // const roadmapItems = study.roadmapItems || [];
   const impactCategories = study.impactCategories || [];
 
-  const itemVariants = {
-    hidden: { opacity: 0, x: -20 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-  };
+  // const itemVariants = {
+  //   hidden: { opacity: 0, x: -20 },
+  //   visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+  // };
 
   const groupedImpact = [];
   for (let i = 0; i < impactCategories.length; i += 3) {

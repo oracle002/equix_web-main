@@ -20,16 +20,7 @@ export default function ContactCardProduct({
     >
       {/* Decorative glow behind button */}
       <div
-        className="absolute left-1/2 -translate-x-1/2"
-        style={{
-          width: "300px",
-          height: "448px",
-          top: "60%", // adjust as needed to be just behind the button
-          background: "#EDB9FF",
-          filter: "blur(200px)",
-          borderRadius: "50%",
-          zIndex: 0,
-        }}
+        className="absolute left-1/2 -translate-x-1/2 contact-card-glow"
       />
 
       {/* Content */}

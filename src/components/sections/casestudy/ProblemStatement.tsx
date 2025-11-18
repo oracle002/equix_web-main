@@ -11,7 +11,7 @@ export default function ProblemStatement() {
   if (!study) return null;
 
   const {
-    problemTitle = "Problem Statement",
+    
     problemDescription,
     challenges = [],
     objectives = [],

@@ -17,7 +17,7 @@ visible: { opacity: 1, transition: { staggerChildren: 0.12 } },
 
 const cardVariants = {
 hidden: { opacity: 0, y: 30 },
-visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
 return ( <section className="relative bg-white px-6 sm:px-10 md:px-16 lg:px-4 py-1 md:py-1"> <div className="max-w-7xl mx-auto">
